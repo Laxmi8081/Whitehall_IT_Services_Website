@@ -1,0 +1,686 @@
+.apps i {
+    margin-left: 10px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #33626d;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: .8s;
+}
+
+.apps i:hover {
+    border-radius: none;
+    background: none;
+    cursor: pointer;
+    color: #33626d;
+    zoom: inherit;
+}
+
+.apps2 i {
+    margin-left: 10px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    color: #33626d;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.apps2 i:hover {
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+/* .back {
+    background: #00000018;
+} */
+
+.home {
+    color: #33626d;
+}
+
+.card2 {
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+.dott{
+      padding-right: 10px;
+        border-right: 2px dotted black;
+}
+.change {
+    color: black;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.change:hover {
+    color: #33626d;
+}
+
+.change::before {
+    border: 1px dotted;
+}
+
+
+.card3 {
+    border: none;
+}
+
+
+.funfact-item i {
+    font-size: 60px;
+    width: 60px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #33626d;
+}
+
+.btn1 {
+    border: 1px solid #33626d;
+    border-radius: none;
+    background-color: #FED647;
+    color: #33626d;
+}
+
+.btn1:hover {
+    border: none;
+    border-radius: none;
+    color: #33626d;
+    background-color: #FED647;
+}
+
+.btn2 {
+    border: none;
+    border-radius: none;
+    background-color: #FED647;
+    color: #33626d;
+}
+
+
+
+.change2 {
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.change2:hover {
+    color: #33626d;
+}
+
+.icon {
+    border: none;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+abbr[title] {
+    cursor: inherit !important;
+    text-decoration: none !important;
+  }
+
+.icon:hover {
+    border: 1px dotted;
+}
+
+.navb {
+    text-decoration: none;
+    border: none;
+}
+
+.card4:hover {
+    box-shadow: 0px 0px 6px 2px rgb(248, 247, 247);
+    border-bottom: 3px solid #33626d;
+}
+
+.card5 {
+    border-bottom: 3px solid #33626d;
+}
+
+footer {
+    border-bottom: 5px solid #33626d;
+}
+
+/* .hr {
+    width: 100%;
+    border: 4px solid #33626d;
+} */
+
+*::selection {
+    background-color: #33626d;
+    color: #fff;
+}
+
+.carousel-control {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #33626d;
+    border: 2px solid black;
+    align-items: center;
+
+}
+
+/* first slide start  */
+
+.h3 {
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    left: 10%;
+
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@media only screen and (max-width: 600px) {
+    .h3 {
+        font-size: 10px;
+        position: absolute;
+        top: 20%;
+        right: 45%;
+        left: 10%;
+        color: #fff;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+.h {
+    position: absolute;
+    top: 37%;
+    right: 45%;
+    left: 10%;
+
+    color: #fff;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@media only screen and (max-width: 600px) {
+    .h {
+        font-size: 15px;
+        position: absolute;
+        top: 30%;
+        right: 45%;
+        left: 10%;
+        color: #fff;
+
+    }
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.btn5 {
+    position: absolute;
+    top: 57%;
+    right: 50%;
+    left: 10%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@media only screen and (max-width: 600px) {
+    .btn5 {
+        position: absolute;
+        top: 45%;
+        right: 50%;
+        left: 10%;
+
+    }
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+/* first slide End */
+
+/* second slide start */
+.h32 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 60%;
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@media only screen and (max-width: 600px) {
+    .h32 {
+        font-size: 10px;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        right: 25%;
+        bottom: 60%;
+    }
+}
+
+
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+.h21 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+
+    color: #fff;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@media only screen and (max-width: 600px) {
+    .h21 {
+        font-size: 15px;
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        left: 30%;
+        color: #fff;
+        animation-duration: 1.5s;
+        animation-name: slidein;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.btn52 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    right: 25%;
+    color: #33626d;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .btn52 {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 25%;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+}
+
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+/* second slide end */
+
+/* third slide start */
+.h33 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 5%;
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@media only screen and (max-width: 600px) {
+    .h33 {
+        font-size: 10px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        right: 5%;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+}
+
+
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+.h23 {
+    /* font-size: 55px;
+    font-weight: 700; */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    right: 5%;
+    color: #fff;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .h23 {
+        font-size: 15px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        right: 5%;
+        animation-duration: 1.5s;
+        animation-name: slidein;
+    }
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.btn53 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    right: 5%;
+    color: #33626d;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@media screen and (max-width: 600px) {
+    .btn53 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 5%;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+/* third slide end */
+
+
+.sum {
+    text-align: right;
+}
+
+.sum3 {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: #33626d;
+    border-radius: 50px 0px 0px 5px;
+ 
+}
+.sum3:hover{
+    color: #fff;
+}
+
+.sum2 {
+    padding: 20px;
+    color: white;
+  
+}
+
+.sum2:hover {
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: #33626d;
+    border-radius: 50px 0px 0px 5px;
+ 
+}
+
+
+
+
+.zoom {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.zoom img {
+    transition: 1s all ease-in-out;
+}
+
+.zoom:hover img {
+    transform: scale(1.5);
+    background-color: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+}
+
+.icon2 {
+    border: 2x solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+    background: #feffff;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+}
+
+.icon2:hover {
+    border: 1px solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+    background: #33626d;
+    opacity: 0.9;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+       
+}
+
+
+
+/*non stop zoom image start Service */
+
+.our{
+   margin-left: 20px;
+}
+
+.non{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.nonstop{
+    animation: zoom 1s infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.5);       
+    }
+   100%{
+        transform: scale(1);
+    } 
+ }
+
+/* non stop zoom image end */
+
+
+/* training center css start */
+
+.change3 {
+   
+    text-decoration: none;
+    transition: 1s;
+}
+
+.change3:hover {
+    color: #33626d;
+}
+
+.not{
+    text-decoration: none;
+}
+
+.Outline{
+    text-decoration: underline;
+}
+
+
+
+.color{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+.red:hover{
+    color: red;
+}
+
+
+.color1{
+    color: blue;
+    text-decoration: underline;
+}
+
+.hr2{
+   border-bottom: black;
+}
+
+
+.comment:hover{
+    border-bottom: 2px solid #33626d;
+}
+
+
+.btn0:hover{
+    background-color: #33626d;
+    border:2px dotted #fff;
+}
+.change4{
+    text-decoration: none;
+    color: black;
+}
+
+.change4:hover{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.div2{
+    list-style: none;
+    background-color: rgb(190, 185, 185);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(241, 238, 238);
+    transition: all 0.3;
+
+}
+
+.div2:hover{
+    list-style: none;
+    background-color: gray;
+    background-color: #33626d;
+    box-shadow: 0px 0px 2px 2px rgb(241, 238, 238);
+}
+
+
+/* training center css end */
+
+/* Nes & Update start*/
+
+/* .img10{
+    width: 100%;
+    height: 100%;
+} */
+
+/* Nes & Update end*/
+
+.circle1{
+    border-radius: 50%;
+}
